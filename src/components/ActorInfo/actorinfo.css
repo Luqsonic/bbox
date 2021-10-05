@@ -1,0 +1,145 @@
+.actorbody{
+background:#F0FAFF;
+padding:10px;
+font-family:'lato',serif;
+}
+
+.a_header{
+text-align:center;
+font-family: 'El messiri', serif;
+}
+.a_header img {
+width:150px;
+height:auto;
+border-radius:5px;
+}
+.a_header p{
+font-family: 'El messiri', serif;
+color:black;
+brder:solid 1px aqua;
+margin-bottom:10px;
+margin-top:15px;
+padding-bottom:0px;
+font-weight:800;
+font-size:32px;
+}
+
+.a_personal_info h3{
+font-size:20px;
+margin:0px 0;
+}
+
+.a_personal_info .info{
+brder:solid 1px aqua;
+margin:10px 0;
+}
+
+
+.i_header {
+color:black;
+font-weight:700;
+margin:0;
+font-family:'lato',serif;
+}
+.i_tagline {
+color:black;
+margin:3px 0 0 0;
+font-family:'lato',serif;
+}
+
+
+.bio h2 {
+color:black;
+margin-top:30px;
+margin-bottom:10px;
+font-family:'lato',serif;
+}
+#bio_box {
+brder:solid 2px red;
+height:300px;
+overflow:hidden;
+position:relative;
+padding-bottom:3px;
+font-family:'lato',serif;
+}
+#bio_box  p {
+font-family:'lato',serif;
+color:black;  
+brder:solid 1px aqua;
+margin-top:0px;
+}
+#showButton {
+position:absolute;
+right:1px;
+bottom:-2px;
+color:red;
+font-weight:400;
+font-size:15px;
+padding:0px;
+background:#F0FAFF;
+border:none;
+box-shadow:-30px 3px 4px #F0FAFF;
+display:none;
+}
+#showButton img {
+width:12px;
+brder:solid 1px aqua;
+margin-bottom:-2px;
+}
+#showButton:active {
+color:#24D1FD;
+}
+
+.actor_movies {
+brder:solid 1px green;
+margin-top:20px;
+}
+.actor_movies h2{
+margin:0px;
+}
+.m_slider   {
+display: flex;
+brder:solid 1px aqua;
+flex-wrap:nowrap;
+overflow-x:scroll;
+}
+      
+.m_slider  > img {
+min-width: 140px;
+height: 200px;
+margin: 5px 8px;
+border-radius:8px;
+
+}
+
+.share {
+brder:solid 1px aqua;
+margin-top:-15px;
+margin-bottom:50px;
+padding:0;
+text-align:center;
+}
+
+#share_icons{
+brder:solid 1px red;
+display:flex;
+align-items:center;
+justify-content:space-around;
+width:150px;
+margin:6px auto;
+padding:0 25px;
+margin-left:100px;
+}
+.icon_div img{
+brder:solid 1px gray;
+width:28px;
+height:28px;
+margin:4px 2px;
+margin:0px;
+
+}
+.icon_div {
+brder:solid 2px aqua;
+width:35px;
+object-fit:contain;
+}
